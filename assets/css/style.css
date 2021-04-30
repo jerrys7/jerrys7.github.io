@@ -131,7 +131,7 @@ h6 {
     color: #E0E2DB;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    /* text-align: center; */
 }
 
 p {
@@ -224,14 +224,6 @@ p {
     transform: translate(-50%, -50%);
 }
 
-footer {
-    width: 100%;
-    background: #2E3532;
-    position: absolute;
-    margin-top: 160px;
-    display: flex;
-}
-
 .row3 {
     display: flex;
     flex-direction: row;
@@ -283,4 +275,94 @@ footer {
     top: 55%;
     position: absolute;
     transform: translate(-50%, -50%);
+}
+
+
+/* .foot {
+    width: 100%;
+    background: #2E3532;
+    position: absolute;
+    margin-top: 160px;
+    display: flex;
+} */
+
+.association {
+    left: 30%;
+    top: 10%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.one {
+    left: 40%;
+    top: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.one img {
+    height: 60px;
+    vertical-align: center;
+}
+
+.two {
+    left: 48%;
+    top: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.two img {
+    height: 60px;
+    vertical-align: center;
+}
+
+.three {
+    left: 61%;
+    top: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: multiply;
+}
+
+.three img {
+    height: 60px;
+    vertical-align: center;
+    mix-blend-mode: multiply;
+}
+
+.four {
+    left: 94%;
+    top: 60%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: multiply;
+}
+
+.four img {
+    height: 45px;
+    vertical-align: center;
+    mix-blend-mode: multiply;
+}
+
+
+/*
+.zero {
+    left: 5%;
+    top: 10%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+} */
+
+footer img {
+    height: 100px;
+    vertical-align: center;
+}
+
+footer {
+    width: 100%;
+    background: #2E3532;
+    position: absolute;
+    margin-top: 160px;
+    display: flex;
 }

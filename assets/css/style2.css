@@ -1,0 +1,71 @@
+/* Overall carousel dimensions */
+
+#carousel,
+.carousel-image {
+    width: 389px;
+    height: 218px;
+}
+
+
+/* Carousel frame setup */
+
+#carousel {
+    position: relative;
+    border: 3px solid blue;
+    /* Part 2.1: Hide stuff that overflows the box */
+    /* overflow: hidden; */
+}
+
+
+/* Images */
+
+#carousel-image-row {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 0px;
+    /* Part 2.2: Add transition */
+    transition: 0.5s left;
+}
+
+.carousel-image img {
+    height: 100%;
+    width: auto;
+}
+
+
+/* Controls */
+
+.hidden {
+    visibility: hidden;
+}
+
+
+/* Part 3: optional button styling */
+
+#carousel-controls {
+    /* vertically center */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* spacing between the two buttons */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* appear in front of images */
+    z-index: 1;
+}
+
+#button-next,
+#button-previous {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
