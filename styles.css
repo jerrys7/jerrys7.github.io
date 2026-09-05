@@ -149,7 +149,7 @@ h3 {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1.7fr) minmax(270px, 0.7fr);
+  grid-template-columns: minmax(0, 1fr) minmax(200px, 245px);
   gap: clamp(48px, 7vw, 96px);
   align-items: center;
   min-height: calc(100vh - 70px);
@@ -219,15 +219,6 @@ h3 {
   background: var(--navy-deep);
 }
 
-.button-secondary {
-  color: var(--navy);
-}
-
-.button-secondary:hover {
-  color: var(--white);
-  background: var(--navy);
-}
-
 .profile-links {
   display: flex;
   gap: 22px;
@@ -245,6 +236,8 @@ h3 {
 
 .portrait-wrap {
   margin: 0;
+  max-width: 245px;
+  justify-self: end;
 }
 
 .portrait {
@@ -289,6 +282,24 @@ h3 {
   border-top: 1px solid var(--line);
 }
 
+.affiliation-label {
+  margin-bottom: 14px;
+  color: var(--orange);
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.previous-label {
+  margin-top: 48px;
+}
+
+.research-current {
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+
 .research-item {
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);
@@ -319,6 +330,10 @@ h3 {
 .item-meta p + p {
   color: var(--muted);
   font-weight: 500;
+}
+
+.item-meta p + p + p {
+  margin-top: 6px;
 }
 
 .advisor {
@@ -522,7 +537,7 @@ h3 {
 }
 
 .contact {
-  padding-block: clamp(90px, 11vw, 150px);
+  padding-block: clamp(70px, 8vw, 100px);
   border-top: 1px solid var(--line);
 }
 
@@ -557,7 +572,7 @@ h3 {
 
 @media (max-width: 900px) {
   .hero {
-    grid-template-columns: minmax(0, 1fr) 240px;
+    grid-template-columns: minmax(0, 1fr) 200px;
     gap: 40px;
   }
 
@@ -602,7 +617,8 @@ h3 {
 
   .portrait-wrap {
     grid-row: 1;
-    max-width: 290px;
+    max-width: 190px;
+    justify-self: start;
   }
 
   .section-heading {
