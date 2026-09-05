@@ -149,8 +149,8 @@ h3 {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(140px, 155px);
-  gap: clamp(48px, 7vw, 96px);
+  grid-template-columns: minmax(0, 1fr) minmax(270px, 300px);
+  gap: clamp(48px, 6vw, 72px);
   align-items: center;
   min-height: calc(100vh - 70px);
   padding-block: 80px;
@@ -238,7 +238,7 @@ h3 {
   width: 100%;
   aspect-ratio: 1;
   margin: 0;
-  max-width: 155px;
+  max-width: 300px;
   justify-self: end;
 }
 
@@ -635,7 +635,7 @@ h3 {
 
 @media (max-width: 900px) {
   .hero {
-    grid-template-columns: minmax(0, 1fr) 145px;
+    grid-template-columns: minmax(0, 1fr) 230px;
     gap: 40px;
   }
 
@@ -680,7 +680,7 @@ h3 {
 
   .portrait-wrap {
     grid-row: 1;
-    max-width: 140px;
+    max-width: 220px;
     justify-self: start;
   }
 
