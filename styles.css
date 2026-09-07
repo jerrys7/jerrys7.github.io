@@ -300,6 +300,11 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.research-current {
+  border-top: 0;
+  border-inline: 0;
+}
+
 .research-item h3 {
   color: var(--navy-deep);
   font-family: var(--serif);
