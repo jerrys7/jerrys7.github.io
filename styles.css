@@ -292,11 +292,6 @@ h3 {
   margin-top: 48px;
 }
 
-.research-current {
-  border: 1px solid var(--line);
-  background: transparent;
-}
-
 .research-item {
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);
