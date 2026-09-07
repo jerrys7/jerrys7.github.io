@@ -301,7 +301,7 @@ h3 {
 }
 
 .research-current {
-  border-top: 0;
+  border-top: 1px solid var(--line);
   border-inline: 0;
 }
 
